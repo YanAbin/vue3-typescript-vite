@@ -13,5 +13,8 @@
     "@vitejs/plugin-vue": "^4.1.0",
     "vite": "^4.2.1",
     "vue": "^3.2.36"
+  },
+  "dependencies": {
+    "@custom/components": "workspace:^1.0.0"
   }
 }
