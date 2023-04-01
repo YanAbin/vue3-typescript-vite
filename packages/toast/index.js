@@ -1,2 +1,2 @@
-import sayHello from "@custom/form";
+import sayHello from '@custom/form';
 sayHello();
