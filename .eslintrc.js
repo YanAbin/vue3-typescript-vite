@@ -48,6 +48,8 @@ module.exports = {
         "vue/no-multiple-template-root":'off',
         "@typescript-eslint/no-explicit-any": "off",
         'arrow-body-style': "off",
-        'prefer-arrow-callback': "off"
+        'prefer-arrow-callback': "off",
+        // 'vue/singleline-html-element-content-newline': 'off',
+        // 'vue/multiline-html-element-content-newline': 'off',
     }
 }
