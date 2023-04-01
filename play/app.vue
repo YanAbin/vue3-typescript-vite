@@ -1,6 +1,7 @@
 <template>
-    <div>启动测试</div>
-    <ct-button></ct-button>
+  <div>
+    <ct-button />
+  </div>
 </template>
 
 <script lang='ts' setup>
