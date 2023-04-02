@@ -1,5 +1,7 @@
 <template>
-  <div>测试按钮</div>
+  <div class="a">
+    测试按钮
+  </div>
 </template>
 
 <script lang='ts' setup>
@@ -8,7 +10,7 @@ defineOptions({
 });
 </script>
 
-<style>
+<style lang='less' scoped>
 .a {
   text-align: center;
 }
