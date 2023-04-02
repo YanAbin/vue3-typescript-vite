@@ -1,6 +1,6 @@
 import { createApp } from 'vue';
 import App from './app.vue';
-import { Button } from '@custom/components';
+import custom from '@custom/plus';
 const app = createApp(App);
-app.use(Button);
+app.use(custom);
 app.mount('#app');
