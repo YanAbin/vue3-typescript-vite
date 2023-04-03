@@ -11,7 +11,10 @@
     "lint": "npm run lint:script && npm run lint:style",
     "prepare": "husky install",
     "build:custom": "gulp -f internal/build/index.ts",
-    "publish:custom": "gulp -f internal/publish/index.ts"
+    "publish:custom": "gulp -f internal/publish/index.ts",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
   },
   "keywords": [],
   "author": "",
@@ -53,6 +56,7 @@
     "vite-plugin-dts": "^2.1.0",
     "vite-plugin-eslint": "^1.8.1",
     "vite-plugin-stylelint": "^4.3.0",
+    "vitepress": "1.0.0-alpha.64",
     "vue": "^3.2.36"
   },
   "lint-staged": {
