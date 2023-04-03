@@ -2,11 +2,15 @@
   "name": "@custom/plus",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "module": "index.ts",
+  "main": "lib/index.js",
+  "module": "es/index.mjs",
   "files": [
     "es",
     "lib"
+  ],
+  "keywords": [
+    "easyest",
+    "vue3组件库"
   ],
   "sideEffects": [
     "**/*.css"
@@ -14,6 +18,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "yb",
+  "license": "MIT",
+  "typings": "lib/index.d.ts",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
 }
