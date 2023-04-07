@@ -8,9 +8,34 @@
     "skipLibCheck": true,
     "esModuleInterop": true,
     "moduleResolution": "Node",
-    "lib": ["esnext", "dom"],
-    "types": ["unplugin-vue-define-options/macros-global"]
+    "isolatedModules": true,
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "types": [
+      "unplugin-vue-define-options/macros-global"
+    ],
+    "paths": {
+      "utils/*": [
+        "packages/utils/*"
+      ],
+      "packages/*": [
+        "packages/*"
+      ],
+      "@custom/*": [
+        "packages/components/*"
+      ]
+    }
   },
-  "include": ["**/*.ts", "**/*.d.ts", "**/*.tsx", "**/*.vue", "play/tsconfig.json"],
-  "exclude": ["node_modules"]
+  "include": [
+    "**/*.ts",
+    "**/*.d.ts",
+    "**/*.tsx",
+    "**/*.vue",
+    "play/tsconfig.json"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }

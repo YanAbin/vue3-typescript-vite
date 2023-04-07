@@ -10,5 +10,12 @@ export default defineConfig({
         DefineOptions(),
         eslintPlugin(),
         viteStylelint()
-    ]
+    ],
+    base: '/',
+    resolve: {
+        extensions: ['.js', '.ts', '.vue', '.json', '.scss'],
+        alias: {
+
+        }
+    }
 })
