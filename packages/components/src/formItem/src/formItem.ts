@@ -1,12 +1,10 @@
 import { definePropType } from 'utils/runtime';
-export const formProps = {
-  model: {
-    type: Object,
-    default: () => {
-      return {};
-    }
+export const formItemProps = {
+  label: {
+    type: String,
+    default: ''
   },
-  rules: {
-    default: null
+  prop: {
+    type: String
   }
 };

@@ -1,6 +1,6 @@
-// import { definePropType } from '../../../../utils/runtime';
-// import { FormRules } from './type';
-export const formProps = {
+import { definePropType } from '@custom/utils';
+import { Rules } from 'async-validator';
+export const propsType = {
   model: {
     type: Object,
     default: () => {
@@ -8,7 +8,7 @@ export const formProps = {
     }
   },
   rules: {
-    type: Array<string>,
+    type: definePropType<Rules>(Object),
     default: null
   }
 };
