@@ -4,6 +4,8 @@
       ref="formRef"
       :model="form" 
       :rules="rules"
+      label-width="100px"
+      inline
     >
       <ct-form-item 
         label="标签1"
@@ -11,6 +13,7 @@
       >
         <ct-input
           v-model="form.inputVal1"
+          placeholder="请输入标签1"
           @input="onInput"
         />
       </ct-form-item>
@@ -20,6 +23,7 @@
       >
         <ct-input
           v-model="form.inputVal2"
+          placeholder="请输入标签2"
           @input="onInput"
         />
       </ct-form-item>
@@ -56,11 +60,11 @@ let judgeNo2 = (rule: any, value: any, callback: any) => {
 const rules = {
   inputVal1: [
     { required: true, message: '请输入标签1', trigger: 'input' },
-    { validator: judgeNo1, trigger: 'input' }
+    { validator: judgeNo1, trigger: 'blur' }
   ],
   inputVal2: [
     { required: true, message: '请输入标签2', trigger: 'input' },
-    { validator: judgeNo2, trigger: 'input' }
+    { validator: judgeNo2, trigger: ['input', 'blur'] }
   ]
 };
 const onInput = (value: Value) => {

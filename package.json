@@ -22,6 +22,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.5.1",
     "@commitlint/config-conventional": "^17.4.4",
+    "@custom/theme": "workspace:^1.0.0",
     "@types/gulp": "^4.0.10",
     "@types/gulp-autoprefixer": "^0.0.33",
     "@types/gulp-less": "^0.0.32",

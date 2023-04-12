@@ -3,5 +3,15 @@ export const inputProps = {
     type: String || Number || null || undefined,
     default: ''
   },
-  prop: String
+  prop: String,
+  placeholder: String
 };
+
+export const emitsEvent = [
+  'update:modelValue',
+  'onChange',
+  'onInput',
+  'onFoucs',
+  'onBlur',
+  'validate'
+];
