@@ -17,14 +17,8 @@
       "unplugin-vue-define-options/macros-global"
     ],
     "paths": {
-      "utils/*": [
-        "packages/utils/*"
-      ],
-      "packages/*": [
-        "packages/*"
-      ],
-      "@custom/*": [
-        "packages/components/*"
+      "async-validator": [
+        "node_modules/async-validator"
       ]
     }
   },

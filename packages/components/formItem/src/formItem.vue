@@ -18,7 +18,7 @@
 import { inject, ref, Ref, getCurrentInstance, ComponentInternalInstance, onMounted } from 'vue';
 import { formItemProps, RulesType, RulesItem } from './formItem';
 import Schema from 'async-validator';
-import { FormContext } from '@custom/src/form/src/form';
+import { FormContext } from 'packages/components/form/src/form';
 
 defineOptions({
   name: 'CtFormItem'

@@ -3,7 +3,7 @@ import type {
   RuleItem,
   ValidateFieldsError
 } from 'async-validator';
-import { Arrayable } from 'utils/array';
+import { Arrayable } from '@custom/utils';
 
 export interface FormItemRule extends RuleItem {
   trigger?: Arrayable<string>

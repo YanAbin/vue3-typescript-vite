@@ -22,7 +22,7 @@ const delPath = async (path: string) => {
       }
     });
 
-    if (path !== `${pkgPath}/custom`) fs.rmdirSync(path);
+    if (path !== `${pkgPath}`) fs.rmdirSync(path);
   }
 };
 

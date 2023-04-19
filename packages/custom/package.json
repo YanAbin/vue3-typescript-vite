@@ -2,14 +2,15 @@
   "name": "custom-plus",
   "version": "1.0.0",
   "description": "",
-  "main": "lib/index.js",
-  "module": "es/index.mjs",
+  "main": "./lib/index.cjs",
+  "module": "./es/index.mjs",
+  "type:": "./index.d.ts",
   "files": [
     "es",
     "lib"
   ],
   "keywords": [
-    "easyest",
+    "custom",
     "vue3组件库"
   ],
   "sideEffects": [
@@ -21,8 +22,10 @@
   },
   "author": "yb",
   "license": "MIT",
-  "typings": "lib/index.d.ts",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
+  },
+  "devDependencies": {
+    "@custom/components": "workspace:^1.0.0"
   }
 }

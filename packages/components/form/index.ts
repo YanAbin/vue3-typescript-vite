@@ -1,4 +1,6 @@
 import _Form from './src/form.vue';
 import { withInstall } from '@custom/utils';
-export const Form = withInstall(_Form);
+import type { Plugin } from 'vue';
+
+export const Form: Plugin = withInstall(_Form);
 export default Form;
