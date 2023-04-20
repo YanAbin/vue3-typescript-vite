@@ -9,6 +9,12 @@
     "es",
     "lib"
   ],
+  "exports": {
+    ".": {
+      "import": "./es/index.mjs",
+      "require": "./lib/index.js"
+    }
+  },
   "keywords": [
     "custom",
     "vue3组件库"
