@@ -10,11 +10,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "custom-plus": "workspace:^1.0.0",
     "vitepress": "1.0.0-alpha.64",
     "vue": "^3.2.36"
   },
   "dependencies": {
-    "@custom/components": "workspace:^1.0.0"
+    "custom-plus": "npm:custom-plus@latest"
   }
 }

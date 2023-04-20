@@ -18,13 +18,13 @@ export const copyFiles = () => {
 };
 
 //打包样式
-export const buildStyle = () => {
-  return src(`${componentPath}/src/**/style/**.less`)
-    .pipe(less())
-    .pipe(autoprefixer())
-    .pipe(dest(`${pkgPath}/lib/src`))
-    .pipe(dest(`${pkgPath}/es/src`));
-};
+// export const buildStyle = () => {
+//   return src(`${componentPath}/**/style/**.less`)
+//     .pipe(less())
+//     .pipe(autoprefixer())
+//     .pipe(dest(`${pkgPath}/lib/src`))
+//     .pipe(dest(`${pkgPath}/es/src`));
+// };
 
 //打包组件
 export const buildComponent = async () => {
@@ -35,7 +35,7 @@ export default series(
   async () => removeDist(),
   async () => copyFiles(),
   parallel(
-    async () => buildStyle(),
+    // async () => buildStyle(),
     async () => buildComponent()
   ),
 );

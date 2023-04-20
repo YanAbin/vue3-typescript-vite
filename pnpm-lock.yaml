@@ -98,14 +98,12 @@ importers:
 
   docs:
     specifiers:
-      '@custom/components': workspace:^1.0.0
-      custom-plus: workspace:^1.0.0
+      custom-plus: npm:custom-plus@latest
       vitepress: 1.0.0-alpha.64
       vue: ^3.2.36
     dependencies:
-      '@custom/components': link:../packages/components
+      custom-plus: 1.0.2
     devDependencies:
-      custom-plus: link:../packages/custom
       vitepress: 1.0.0-alpha.64
       vue: 3.2.47
 
@@ -1427,7 +1425,7 @@ packages:
       vite: ^4.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 4.2.1_6yunucjcl4g6chxuif73yri7xi
+      vite: 4.2.1
       vue: 3.2.47
     dev: true
 
@@ -2828,6 +2826,10 @@ packages:
 
   /csstype/2.6.21:
     resolution: {integrity: sha512-Z1PhmomIfypOpoMjRQB70jfvy/wxT50qW08YXO5lMIJkrdq4yOTR+AW7FqutScmB9NkLwxo+jU+kZLbofZZq/w==}
+
+  /custom-plus/1.0.2:
+    resolution: {integrity: sha512-Ld91ud9FDGw2+CLDXXlJ3ONrgcyeyT9X6/eyirHulN8L1Ne0ePNFGPZUTaOUpSnOm/XK3ncjweksDGYX9Zcomg==}
+    dev: false
 
   /d/1.0.1:
     resolution: {integrity: sha512-m62ShEObQ39CfralilEQRjH6oAMtNCV1xJyEx5LpRYUVN+EviphDgUc/F3hnYbADmkiNs67Y+3ylmlG7Lnu+FA==}

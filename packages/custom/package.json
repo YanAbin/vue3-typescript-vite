@@ -2,7 +2,7 @@
   "name": "custom-plus",
   "version": "1.0.0",
   "description": "",
-  "main": "./lib/index.cjs",
+  "main": "./lib/index.js",
   "module": "./es/index.mjs",
   "type:": "./index.d.ts",
   "files": [
