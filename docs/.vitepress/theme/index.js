@@ -1,5 +1,7 @@
 import DefaultTheme from 'vitepress/theme';
 import custom from 'custom-plus';
+import '@custom/theme';
+
 export default {
   ...DefaultTheme,
   enhanceApp: async ({ app }) => {

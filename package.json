@@ -15,7 +15,8 @@
     "publish:custom": "gulp -f internal/publish/index.ts",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs",
+    "play:dev": "pnpm run -C play dev"
   },
   "keywords": [],
   "author": "",

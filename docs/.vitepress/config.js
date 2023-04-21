@@ -32,12 +32,12 @@ export default {
           text: '基础组件',
           items: [
             {
-              text: 'Button',
+              text: 'Button 按钮',
               link: '/components/button/'
             },
             {
-              text: '表格',
-              link: '/components/button'
+              text: 'Form 表单',
+              link: '/components/form/'
             }
           ]
         }

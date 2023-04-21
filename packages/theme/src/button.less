@@ -1,0 +1,102 @@
+@import './common/var.less';
+
+.ct-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  cursor: pointer;
+  text-align: center;
+  border: @ct-border-width @ct-border-style @ct-border-color;
+  border-radius: @ct-border-radius;
+  box-sizing: border-box;
+  background-color: transparent;
+  outline: none;
+  padding: 8px 15px;
+
+  &:disabled {
+    cursor: not-allowed;
+  }
+
+  &:hover {
+    background-color: @ct-color-primary-hover;
+    color: @ct-color-white;
+    border: @ct-border-width @ct-border-style @ct-color-primary-hover;
+  }
+}
+
+.ct-button-default {
+  height: @ct-size-default;
+  font-size: @ct-font-size-default;
+  padding: 8px 15px;
+}
+
+.ct-button-small {
+  height: @ct-size-small;
+  font-size: @ct-font-size-small;
+}
+
+.ct-button-large {
+  height: @ct-size-large;
+  font-size: @ct-font-size-medium;
+
+}
+
+.ct-button-type-primary {
+  background-color: @ct-color-primary;
+  border: none;
+  color: @ct-color-white;
+
+  &:hover {
+    background-color: @ct-color-primary-hover;
+  }
+
+  &:disabled {
+    background-color: @ct-color-primary-light;
+    cursor: not-allowed;
+  }
+}
+
+.ct-button-type-success {
+  background-color: @ct-color-success;
+  border: none;
+  color: @ct-color-white;
+
+  &:hover {
+    background-color: @ct-color-success-hover;
+  }
+
+  &:disabled {
+    background-color: @ct-color-success-light;
+    cursor: not-allowed;
+  }
+}
+
+.ct-button-type-danger {
+  background-color: @ct-color-danger;
+  border: none;
+  color: @ct-color-white;
+
+  &:hover {
+    background-color: @ct-color-danger-hover;
+  }
+
+  &:disabled {
+    background-color: @ct-color-danger-light;
+    cursor: not-allowed;
+  }
+}
+
+.ct-button-type-warning {
+  background-color: @ct-color-warning;
+  border: none;
+  color: @ct-color-white;
+
+  &:hover {
+    background-color: @ct-color-warning-hover;
+  }
+
+  &:disabled {
+    background-color: @ct-color-warning-light;
+  }
+}

@@ -28,7 +28,61 @@
         />
       </ct-form-item>
     </ct-form>
-    <ct-button @click="judge" />
+    <ct-button
+      size="small"
+    >
+      测试按钮
+    </ct-button>
+    <ct-button 
+      size="large"
+      :disabled="true"
+    >
+      测试按钮
+    </ct-button>
+    <ct-button
+      type="primary"
+    >
+      测试按钮
+    </ct-button>
+    <ct-button 
+      type="primary"
+      :disabled="true"
+    >
+      测试按钮
+    </ct-button>
+    <ct-button
+      type="success"
+    >
+      测试按钮
+    </ct-button>
+    <ct-button 
+      type="success"
+      :disabled="true"
+    >
+      测试按钮
+    </ct-button>
+    <ct-button
+      type="danger"
+    >
+      测试按钮
+    </ct-button>
+    <ct-button 
+      type="danger"
+      :disabled="true"
+    >
+      测试按钮
+    </ct-button>
+    <ct-button
+      type="warning"
+    >
+      测试按钮
+    </ct-button>
+    <ct-button 
+      type="warning"
+      :disabled="true"
+    >
+      测试按钮
+    </ct-button>
   </div>
 </template>
 

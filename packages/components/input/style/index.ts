@@ -1,0 +1,1 @@
+import '@custom/theme/src/input.less';

@@ -8,6 +8,7 @@
     "skipLibCheck": true,
     "esModuleInterop": true,
     "moduleResolution": "Node",
+    "noImplicitAny": true,
     "isolatedModules": true,
     "lib": [
       "esnext",
@@ -26,8 +27,7 @@
     "**/*.ts",
     "**/*.d.ts",
     "**/*.tsx",
-    "**/*.vue",
-    "play/tsconfig.json"
+    "**/*.vue"
   ],
   "exclude": [
     "node_modules"
