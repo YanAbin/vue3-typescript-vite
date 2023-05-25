@@ -41,6 +41,10 @@ export default {
           text: '表单',
           items: [
             {
+              text: 'Upload 上传',
+              link: '/components/upload/'
+            },
+            {
               text: 'Form 表单',
               link: '/components/form/'
             }
