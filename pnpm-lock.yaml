@@ -99,12 +99,12 @@ importers:
   docs:
     specifiers:
       '@custom/theme': workspace:^1.0.0
-      custom-plus: ^1.0.6
+      custom-plus: ^1.0.8
       vitepress: 1.0.0-alpha.64
       vue: ^3.2.36
     dependencies:
       '@custom/theme': link:../packages/theme
-      custom-plus: 1.0.6
+      custom-plus: 1.0.8
     devDependencies:
       vitepress: 1.0.0-alpha.64
       vue: 3.2.47
@@ -143,11 +143,13 @@ importers:
       unplugin-vue-components: ^0.24.1
       vite: ^4.2.1
       vue: ^3.2.36
+      vue-router: ^4.0.13
     dependencies:
       '-': 0.0.1
       '@custom/components': link:../packages/components
       D: 1.0.0
       unplugin-vue-components: 0.24.1_vue@3.2.36
+      vue-router: 4.0.13_vue@3.2.36
     devDependencies:
       '@custom/theme': link:../packages/theme
       '@vitejs/plugin-vue': 4.1.0_vite@4.2.1+vue@3.2.36
@@ -1416,7 +1418,7 @@ packages:
       vite: ^4.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 4.2.1_6yunucjcl4g6chxuif73yri7xi
+      vite: 4.2.1
       vue: 3.2.36
     dev: true
 
@@ -1555,7 +1557,6 @@ packages:
 
   /@vue/devtools-api/6.5.0:
     resolution: {integrity: sha512-o9KfBeaBmCKl10usN4crU53fYtC1r7jJwdGKjPT24t348rHxgfpZ0xL3Xm/gLUYnc0oTp8LAmrxOeLyu6tbk2Q==}
-    dev: true
 
   /@vue/reactivity-transform/3.2.36:
     resolution: {integrity: sha512-Jk5o2BhpODC9XTA7o4EL8hSJ4JyrFWErLtClG3NH8wDS7ri9jBDWxI7/549T7JY9uilKsaNM+4pJASLj5dtRwA==}
@@ -2829,8 +2830,8 @@ packages:
   /csstype/2.6.21:
     resolution: {integrity: sha512-Z1PhmomIfypOpoMjRQB70jfvy/wxT50qW08YXO5lMIJkrdq4yOTR+AW7FqutScmB9NkLwxo+jU+kZLbofZZq/w==}
 
-  /custom-plus/1.0.6:
-    resolution: {integrity: sha512-J35oL/1JwiNtpQfw3ipi8oV4f4+43ZBv8P3J5qXu4cJlEX/lqljXo3xUx8jotNPVyAOe1uth5fk6AxKQ7cRxEA==}
+  /custom-plus/1.0.8:
+    resolution: {integrity: sha512-zNdtWlXeQJZqzJvJ8M1JZH9a1Rb2uGTpjR0eDaGSIkm8DV7kX1rI7LBWi6kH1UcU4nuRmxDbBvlcO/Tf9/TLCg==}
     dev: false
 
   /d/1.0.1:
@@ -8635,6 +8636,15 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+
+  /vue-router/4.0.13_vue@3.2.36:
+    resolution: {integrity: sha512-LmXrC+BkDRLak+d5xTMgUYraT3Nj0H/vCbP+7usGvIl9Viqd1UP6AsP0i69pSbn9O0dXK/xCdp4yPw21HqV9Jw==}
+    peerDependencies:
+      vue: ^3.2.0
+    dependencies:
+      '@vue/devtools-api': 6.5.0
+      vue: 3.2.36
+    dev: false
 
   /vue/3.2.36:
     resolution: {integrity: sha512-5yTXmrE6gW8IQgttzHW5bfBiFA6mx35ZXHjGLDmKYzW6MMmYvCwuKybANRepwkMYeXw2v1buGg3/lPICY5YlZw==}

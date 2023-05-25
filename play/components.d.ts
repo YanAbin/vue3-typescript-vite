@@ -14,8 +14,11 @@ declare module '@vue/runtime-core' {
     CtForm: typeof import('@custom/components')['Form']
     CtFormItem: typeof import('@custom/components')['FormItem']
     CtInput: typeof import('@custom/components')['Input']
+    CtUpload: typeof import('@custom/components')['Upload']
     Form: typeof import('./node_modules/@custom/components/form/src/form.vue')['default']
     FormItem: typeof import('./node_modules/@custom/components/formItem/src/formItem.vue')['default']
     Input: typeof import('./node_modules/@custom/components/input/src/input.vue')['default']
+    RouterLink: typeof import('vue-router')['RouterLink']
+    RouterView: typeof import('vue-router')['RouterView']
   }
 }

@@ -34,7 +34,12 @@ export default {
             {
               text: 'Button 按钮',
               link: '/components/button/'
-            },
+            }
+          ]
+        },
+        {
+          text: '表单',
+          items: [
             {
               text: 'Form 表单',
               link: '/components/form/'

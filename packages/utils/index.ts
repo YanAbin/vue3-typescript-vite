@@ -3,3 +3,4 @@ export * from './help';
 export * from './install';
 export * from './runtime';
 export * from './component/size';
+export * from './transform';
